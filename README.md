@@ -53,4 +53,6 @@ var updated_thesaurus = thesaurus.load("./th_en_US_new.dat");
 
 // TODO you can't save it yet.. but you can export the resulting JSON using:
 console.log(updated_thesaurus.toJson());
+// ... or copy it to the clipboard from the Chrome Dev Tools Console with
+copy(updated_thesaurus.toJson());
 ```
